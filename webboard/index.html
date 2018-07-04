@@ -1,1 +1,96 @@
-weboard
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Dic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/dictionary/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/dictionary/board.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/dictionary/link.css" />
+    <script src="/dictionary/side_bar.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a>LOGO</a>
+        <input type="text" id="user" name="user" placeholder="username">
+        <input type="text" id="pw" name="pw" placeholder="password">
+        <button id="login">LOG IN</button>
+        <a href="report.html" style="margin-top: 10%;">แจ้งปัญหา</a>
+        <a href="webboard/">webboard</a>
+    </div>
+    <div class="top">
+        <span onclick="openNav()">&#9776; Dictionary</span>
+    </div>
+
+    <div class="logo"></div>
+
+    <div class="board">
+        <div class="menu">
+            <a class="button-new" href="create.html">
+                <span>+</span> เริ่มกระทู้ใหม่</a>
+        </div>
+        <div class="posts">
+            <table style="width: 100%; margin-top: 2%;">
+                <tr>
+                    <th>
+                        ชื่อหัวข้อ
+                    </th>
+                    <th>
+                        ผู้โพส
+                    </th>
+                    <th>
+                        วันที่โพส
+                    </th>
+                    <th>
+                        ตอบกลับล่าสุด
+                    </th>
+                </tr>
+                <tr>
+                    <td style="width: 40%">
+                        <a href="post.html">
+                            tiny, little, small ใช้ต่างกันอย่างไรครับ?
+                        </a>
+                    </td>
+                    <td style="width: 10%">
+                        ping
+                    </td>
+                    <td style="width: 15%">
+                        วันที่ 4/7/2018 เวลา 16.43.00 น.
+                    </td>
+                    <td style="width: 25%; font-size: 15px;">
+                        คุณ peerat ตอบกลับเมื่อ 4/7/2018 เวลา 17.01.39 น
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 40%">
+                        <a href="post.html">
+                            Less กับ small ต่างกันยังไง
+                        </a>
+                    </td>
+                    <td style="width: 10%">
+                        kong
+                    </td>
+                    <td style="width: 15%">
+                        5/7/2018 18.05.50 น.
+                    </td>
+                    <td style="width: 25%;font-size: 15px;">
+                        คุณ souppy ตอบกลับเมื่อ 6/7/2018 เวลา 22.00.00 น
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div align="right">
+            <a class="button-new" href="/dictionary/index.html" style="margin-top: 2%; background-color: rgb(189, 186, 186);">กลับหน้าหลัก</a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

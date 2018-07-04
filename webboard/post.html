@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Dic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/dictionary/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/dictionary/board.css" />
+
+    <script src="/dictionary/side_bar.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a>LOGO</a>
+        <input type="text" id="user" name="user" placeholder="username">
+        <input type="text" id="pw" name="pw" placeholder="password">
+        <button id="login">LOG IN</button>
+        <a href="report.html" style="margin-top: 10%;">แจ้งปัญหา</a>
+        <a href="webboard/">webboard</a>
+    </div>
+    <div class="top">
+        <span onclick="openNav()">&#9776; Dictionary</span>
+    </div>
+
+    <div class="logo"></div>
+
+    <div class="board" style="border: 1px solid #ddd;">
+        <div align="right">
+            <a class="button-new" href="" style="margin-top: 2%; margin-right: 2%;">เพิ่มความคิดเห็นใหม่</a>
+        </div>
+        <div class="content">
+            <h1>tiny, little, small ใช้ต่างกันอย่างไรครับ?</h1>
+            <div style="margin-top: -1%;">
+                <label style="font-size: 10px;">โดยคุณ ping โพสเมื่อ 4/7/2018 16.43.00 น.</label>
+            </div>
+            <div class="content-post">
+                <label>tiny, little, small ใช้ต่างกันอย่างไรครับ? รบกวนด้วยครับ</label>
+            </div>
+        </div>
+    </div>
+    <div class="board" style="border: 1px solid #ddd;">
+        <div style="margin: 1%;">
+            <label>ความคิดเห็นที่ 1</label>
+        </div>
+        <div class="content">
+            <h1>tiny, little, small ใช้ต่างกันอย่างไรครับ?
+                <b style="border-bottom: 1px solid #ddd; color:#ddd;">การตอบกลับ</b>
+            </h1>
+            <div style="margin-top: -1%;">
+                <label style="font-size: 10px;">คุณ peerat ตอบกลับเมื่อ 4/7/2018 เวลา 17.01.39 น</label>
+            </div>
+            <div class="content-post">
+                <label>tiny คือเล็กมากๆครับ small จะใหญ่กว่า tiny ใน wiktionary แปล small ว่า not large or big
+                    <br> แต่แปล tiny ว่า very small tiny กับ small เป็นคำประเพทเดียวกันครับ ใช้ตามความรู้สึก
+                    <br> little เป็น comparative ใช้ตามสถานการณ์ครับ อย่างเช่น "นอนน้อย" เราจะใช้ "a little sleep"
+                    <br>เราไม่ใช้ "small sleep" หรือ "tiny sleep" ครับ มันขัดกับความรู้สึก
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="board" style="border: 1px solid #ddd;">
+        <div style="margin: 1%;">
+            <label>เพิ่มความคิดเห็น</label>
+        </div>
+        <div class="content">
+            <h1>tiny, little, small ใช้ต่างกันอย่างไรครับ?
+                <b style="border-bottom: 1px solid #ddd; color:#ddd;">การตอบกลับ</b>
+            </h1>
+
+            <div class="content-post">
+                <b>ความคิดเห็นของคุณ</b>
+                <br>
+                <textarea style="width: 90%; height: 200px;" placeholder="ความคิดเห็นของคุณ"></textarea>
+            </div>
+            <a class="button" style="margin-left: 1%; margin-top: -1%;">เพิ่มความคิดเห็นใหม่</a>
+        </div>
+
+    </div>
+    <div align="right">
+        <a class="button-new" href="index.html" style="margin-right:3%; margin-bottom: 3%; background-color: rgb(189, 186, 186);">กลับหน้าหลัก</a>
+    </div>
+
+
+</body>
+
+</html>

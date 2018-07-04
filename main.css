@@ -49,10 +49,11 @@ body,html {
 .center-popular {
     margin: auto;
     width: 50%;
-    height: 50%;
+    height: auto;
     border: 1px solid #ddd;
     padding-left: 1%;
     font-size : 20px;
+    margin-bottom: 3%;
 }
 
 .center-popular b {
@@ -61,7 +62,7 @@ body,html {
     margin-right: 5%;
 }
 
-th, td {
+.center-popular th, .center-popular td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;  
@@ -79,11 +80,13 @@ th, td {
 .report {
     margin: auto;
     padding: 10px;
-    height: 250px;
+    height: auto;
     width: 50%;
     background-color:blanchedalmond ;
     margin-bottom: 3%;
     font-size: 20px;
+    
+    
 }
 
 .report label{

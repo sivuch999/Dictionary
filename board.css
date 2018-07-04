@@ -1,0 +1,57 @@
+.board{
+    margin : 3%;
+    /*border: 1px solid #ddd;*/
+    position: relative;
+    height: auto;
+}
+
+.button-new {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content{
+    margin: 1%;
+}
+
+.content-post{
+    font-size: 20px;
+    padding: 1%;
+    border-top: 1px solid #ddd;
+    height: auto;
+    
+}
+
+.create-form {
+    margin: auto;
+    padding: 10px;
+    height: auto;
+    width: 50%;
+    background-color:blanchedalmond ;
+    margin-bottom: 3%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.create-form input,textarea {
+    margin: 2%;
+    font-size: 20px;
+    padding:2%
+}
+
+.create-form input {
+    width: 70%;
+    height: 40px; 
+}
+
+.posts th, .posts td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;  
+}
