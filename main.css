@@ -1,0 +1,198 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+.center-browse {
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+    width: 50%;
+    background-color: #3333CC;
+    margin-bottom: 3%;
+}
+
+.text{
+    margin-top: 1%;
+}
+
+.center-search {
+    margin: auto;
+    height: 70px;
+    width: 50%;
+    background-color: #3333CC;
+    margin-bottom: 3%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-top: -3%;
+    display : block;
+    
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.center-search >  *{
+    display : inline-block;
+}
+
+
+.center-popular {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ddd;
+    padding-left: 1%;
+    font-size : 20px;
+}
+
+.center-popular b {
+    font-size: 40px;
+    color: #ddd;
+    margin-right: 5%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;  
+}
+
+.center-popular font {
+    color: blue; 
+}
+.center-popular font b {
+    color: blue; 
+    font-size : 20px;
+    margin-right: 0%;
+}
+
+.report {
+    margin: auto;
+    padding: 10px;
+    height: 250px;
+    width: 50%;
+    background-color:blanchedalmond ;
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+.report label{
+    margin-left: 10%;
+}
+
+.report div textarea,button{
+    margin-left: 10%;
+}
+ 
+
+.report button{
+    margin-top:3%;
+}
+
+.logo {
+    height: 200px;
+    width: 100%;
+    background-color: powderblue;
+    
+}
+
+.form-textbox {
+    padding-bottom: 1px;
+    height: 70% !important;
+    width: 60% !important;
+    font-size: 20 px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top {
+    background-color: black;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 1%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav input {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+    border : none;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidenav button {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+    background: #CC9933;
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+   
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Dic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="side_bar.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a>LOGO</a>
+        <input type="text" id="user" name="user" placeholder="username">
+        <input type="text" id="pw" name="pw" placeholder="password">
+        <button id="login">LOG IN</button>
+        <a href="" style="margin-top: 10%;">แจ้งปัญหา</a>
+        <a href="webboard/">webboard</a>
+    </div>
+    <div class="top">
+        <span onclick="openNav()">&#9776; Dictionary</span>
+    </div>
+
+    <div class="logo">
+
+    </div>
+    <div class="report" style="margin-top: 5%;">
+        <div>
+            <label>กรุณาเลือกปัญหา : </label>
+            <select style="height: 30px; width: 250px; padding-left: 30px; ">
+                <option value="" selected>กรุณาเลือกปัญหา</option>
+                <option value="">แจ้งปัญหาคำศัพท์ไม่ตรง</option>
+                <option value="">แจ้งปัญหาคำศัพท์ไม่มี</option>
+                <option value="">แจ้งปัญหาเว็บบอร์ด</option>
+            </select>
+        </div>
+        <div class="text">
+            <label>รายละเอียด</label>
+            <br>
+            <textarea style="width: 80%;height: 100px; margin-top: 1%;"></textarea>
+        </div>
+        <center>
+            <a class="button" style="margin-left: 0%; margin-top: 3%;">ส่ง</a>
+            <a class="button" style="margin-left: 0%; background-color: grey;" href="index.html">กลับ</a>
+        </center>
+    </div>
+
+
+
+</body>
+
+</html>

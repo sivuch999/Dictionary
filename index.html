@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Dic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="side_bar.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a>LOGO</a>
+        <input type="text" id="user" name="user" placeholder="username">
+        <input type="text" id="pw" name="pw" placeholder="password">
+        <button id="login">LOG IN</button>
+        <a href="report.html" style="margin-top: 10%;">แจ้งปัญหา</a>
+        <a href="webboard/">webboard</a>
+    </div>
+    <div class="top">
+        <span onclick="openNav()">&#9776; Dictionary</span>
+    </div>
+
+    <div class="logo">
+
+    </div>
+    <div class="center-search">
+        <input type="text" name="search" id="search" placeholder="Search English-Thai" class="form-textbox" />
+        <select name="type" id="type" style="height: 78%; width: 120px; padding-left: 10px; border: none;">
+            <option value="1">English-Thai</option>
+            <option value="2">Thai-English</option>
+        </select>
+        <button type="submit" style="height: 78%; width: 100px; padding-top: 0px;">ค้นหา</button>
+    </div>
+
+    <div class="center-browse" style="padding-top: 1px;">
+        <p style="color:white;">Browse this dictionary</p>
+        <div>
+            ซ้าย
+        </div>
+    </div>
+
+    <div class="center-popular">
+        <h1>Popular searches</h1>
+        <table style="width: 100%">
+            <tr>
+                <td>
+                    <b>1</b>
+                    <font>
+                        <b>verb</b> noun</font>
+                </td>
+                <td>
+                    <b>6</b>
+                    <font>
+                        <b>craft</b> noun</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>2</b>
+                    <font>
+                        <b>accomplish</b> verb</font>
+                </td>
+                <td>
+                    <b>7</b>
+                    <font>
+                        <b>cure</b> verb</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>3</b>
+                    <font>
+                        <b>accommodate</b> verb</font>
+                </td>
+                <td>
+                    <b>8</b>
+                    <font>
+                        <b>predecessor</b> noun</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>4</b>
+                    <font>
+                        <b>big</b> adjective</font>
+                </td>
+                <td>
+                    <b>9</b>
+                    <font>
+                        <b>hot</b> adjective</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>5</b>
+                    <font>
+                        <b>fish</b> noun</font>
+                </td>
+                <td>
+                    <b>10</b>
+                    <font>
+                        <b>live</b> verb</font>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
